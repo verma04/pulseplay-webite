@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "62651d68fc0bba2e8a9fbb77"
+  },
+  "solutionsName": "Start Ups & Unicorns",
+  "slug": "start-ups-and-unicorns"
+},{
+  "_id": {
+    "$oid": "62651e0e3d344d5b36f0b6a6"
+  },
+  "solutionsName": "SMB & MSME",
+  "slug": "smb-and-msme"
+},{
+  "_id": {
+    "$oid": "62651e5efb2bb9105ddf09fe"
+  },
+  "solutionsName": "Enterprise",
+  "slug": "enterprise"
+},{
+  "_id": {
+    "$oid": "6266262982d5f646ad87b7a8"
+  },
+  "solutionsName": "Agriculture",
+  "slug": "agriculture"
+},{
+  "_id": {
+    "$oid": "62662f8482d5f646ad87b7c0"
+  },
+  "solutionsName": "Automotive",
+  "slug": "automotive"
+},{
+  "_id": {
+    "$oid": "6266375082d5f646ad87b819"
+  },
+  "solutionsName": "Beauty & Fashion",
+  "slug": "beauty-and-fashion"
+},{
+  "_id": {
+    "$oid": "62663ba882d5f646ad87b836"
+  },
+  "solutionsName": "Consumer Products",
+  "slug": "consumer-products"
+},{
+  "_id": {
+    "$oid": "626641df82d5f646ad87b852"
+  },
+  "solutionsName": "E-commerce, D2C & Marketplace",
+  "slug": "e-commerce-d2c-and-marketplace"
+},{
+  "_id": {
+    "$oid": "6266476282d5f646ad87b8f2"
+  },
+  "solutionsName": "FMCG & Retail",
+  "slug": "fmcg-and-retail"
+},{
+  "_id": {
+    "$oid": "62664b0482d5f646ad87b9e7"
+  },
+  "solutionsName": "Health & Wellness",
+  "slug": "health-and-wellness"
+},{
+  "_id": {
+    "$oid": "62664e0e82d5f646ad87bb32"
+  },
+  "solutionsName": "Sports & Fitness",
+  "slug": "sports-and-fitness"
+},{
+  "_id": {
+    "$oid": "62664fe682d5f646ad87bb4d"
+  },
+  "solutionsName": "Education",
+  "slug": "education"
+},{
+  "_id": {
+    "$oid": "626651f482d5f646ad87bb69"
+  },
+  "solutionsName": "Real Estate",
+  "slug": "real-estate"
+},{
+  "_id": {
+    "$oid": "6266543982d5f646ad87bb86"
+  },
+  "solutionsName": "Entertainment & Celebrity",
+  "slug": "entertainment-and-celebrity"
+},{
+  "_id": {
+    "$oid": "6266687082d5f646ad87bba1"
+  },
+  "solutionsName": "Travel,  Tourism & Leisure",
+  "slug": "travel-tourism-and-leisure"
+},{
+  "_id": {
+    "$oid": "62666c9e82d5f646ad87bbbc"
+  },
+  "solutionsName": "IT & ITES",
+  "slug": "it-and-ites"
+},{
+  "_id": {
+    "$oid": "62666ea382d5f646ad87bbd4"
+  },
+  "solutionsName": "Financial Services",
+  "slug": "financial-services"
+},{
+  "_id": {
+    "$oid": "6266737f82d5f646ad87bbef"
+  },
+  "solutionsName": "Manufacturing",
+  "slug": "manufacturing"
+},{
+  "_id": {
+    "$oid": "626679c282d5f646ad87be15"
+  },
+  "solutionsName": "Social & Not For Profit",
+  "slug": "social-and-not-for-profit"
+},{
+  "_id": {
+    "$oid": "62668d8d82d5f646ad87c137"
+  },
+  "solutionsName": "Public Sector",
+  "slug": "public-sector"
+}]

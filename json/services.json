@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "626241b05ad2615397094fd5"
+  },
+  "servicesName": "Digital Strategy& Consulting",
+  "slug": "digital-strategyand-consulting"
+},{
+  "_id": {
+    "$oid": "62624baba5072ad883c92182"
+  },
+  "servicesName": "Brand Identity & Launch",
+  "slug": "brand-identity-and-launch"
+},{
+  "_id": {
+    "$oid": "62624c72a5072ad883c9218d"
+  },
+  "servicesName": "Audience Intelligence",
+  "slug": "audience-intelligence"
+},{
+  "_id": {
+    "$oid": "62624d13a5072ad883c92199"
+  },
+  "servicesName": "E-commerce & Websites",
+  "slug": "e-commerce-and-websites"
+},{
+  "_id": {
+    "$oid": "62624ddaa5072ad883c921a8"
+  },
+  "servicesName": "Mobile Apps",
+  "slug": "mobile-apps"
+},{
+  "_id": {
+    "$oid": "62624e60a5072ad883c921b7"
+  },
+  "servicesName": "SEO & Creative Content Marketing",
+  "slug": "seo-and-creative-content-marketing"
+},{
+  "_id": {
+    "$oid": "62624ee5a5072ad883c921bb"
+  },
+  "servicesName": "Social Media Marketing",
+  "slug": "social-media-marketing"
+},{
+  "_id": {
+    "$oid": "62624f4da5072ad883c921c7"
+  },
+  "servicesName": "Video Production & Marketing",
+  "slug": "video-production-and-marketing"
+},{
+  "_id": {
+    "$oid": "62625740865f3147425ee324"
+  },
+  "servicesName": "Digital PR & Communication",
+  "slug": "digital-pr-and-communication"
+},{
+  "_id": {
+    "$oid": "626258d4865f3147425ee38d"
+  },
+  "servicesName": "Influencer Marketing",
+  "slug": "influencer-marketing"
+},{
+  "_id": {
+    "$oid": "6262598e865f3147425ee3a4"
+  },
+  "servicesName": "Paid Media Advertising",
+  "slug": "paid-media-advertising"
+},{
+  "_id": {
+    "$oid": "62625f43865f3147425ee41c"
+  },
+  "servicesName": "Technology & Platform Integration",
+  "slug": "technology-and-platform-integration"
+},{
+  "_id": {
+    "$oid": "62625fc7865f3147425ee42a"
+  },
+  "servicesName": "Data Analytics",
+  "slug": "data-analytics"
+}]

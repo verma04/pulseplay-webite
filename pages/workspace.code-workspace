@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "pulseplay-web",
+			"path": ".."
+		},
+		{
+			"name": "comingsoon_01",
+			"path": "../../Downloads/comingsoon_01"
+		}
+	],
+	"settings": {}
+}
