@@ -15,7 +15,7 @@ export default function Career({data}) {
 
 
 
-  console.log(data)
+
 
 
   const [ active , setActive] = React.useState('')

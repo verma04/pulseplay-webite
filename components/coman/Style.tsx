@@ -267,7 +267,7 @@ export const Nav = styled.nav`
           align-items: center;
           flex-direction: column;
           position: relative;
-          width: 100%;
+          width: 80%;
           height: 100%;
 
           img {
@@ -538,7 +538,7 @@ a {
     background-color:#000000;
     position:relative;
     padding: 3rem 0;
-    background-image: url('/technology-network-background 1.png');
+    background-image: url('/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     .container{

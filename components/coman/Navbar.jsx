@@ -278,7 +278,7 @@ function Navbar() {
                   }
                   initial="hidden"
                   animate="visible"
-                  href="/contactus"
+                  href="/contact-us"
                 >
                   Contact
                   <div className="index">7</div>
@@ -394,10 +394,11 @@ initial="hidden"
               {isShown === "solutions" && (
                 <div className="dropdownRight-container">
                   {solutions.map((set) => (
-                    <motion.div
+                    <motion.a
                       key={set.id}
                       className="list"
-                      onClick={() => router.push(`/solutions/${set.slug}`)}
+                      href={`/solutions/${set.slug}`}
+             
                     >
                       <svg
                         width="40"
@@ -420,7 +421,7 @@ initial="hidden"
                         <li>{set.solutionsName}</li>
                         <li id="grey">Solutions</li>
                       </ul>
-                    </motion.div>
+                    </motion.a>
                   ))}
                 </div>
               )}
@@ -428,10 +429,10 @@ initial="hidden"
               {isShown === "services" && (
                 <div className="dropdownRight-container">
                   {services.map((set) => (
-                    <motion.div
+                    <motion.a
                       key={set.id}
                       className="list"
-                      onClick={() => router.push(`/services/${set.slug}`)}
+                      href={`/services/${set.slug}`}
                     >
                       <svg
                         width="40"
@@ -454,7 +455,7 @@ initial="hidden"
                         <li>{set.servicesName}</li>
                         <li id="grey">Services</li>
                       </ul>
-                    </motion.div>
+                    </motion.a>
                   ))}
                 </div>
               )}
@@ -576,7 +577,7 @@ initial="hidden"
                   }
                   initial="hidden"
                   animate="visible"
-                  onClick={() => router.push(`/contactus`)}
+                  onClick={() => router.push(`/contact-us`)}
                 >
                   Contact
                   <div className="index">7</div>

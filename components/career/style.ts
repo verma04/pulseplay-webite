@@ -355,6 +355,7 @@ width: 60%;
                 flex-direction: column;
                 align-items: flex-start;
                  li {
+                     cursor: pointer;
                      color: #FF2E5F;
                      list-style: none;
                      text-transform: uppercase;
@@ -714,6 +715,7 @@ width: 60%;
                 flex-direction: column;
                 align-items: flex-start;
                  li {
+                    cursor: pointer;
                      color: #FF2E5F;
                      list-style: none;
                      text-transform: uppercase;

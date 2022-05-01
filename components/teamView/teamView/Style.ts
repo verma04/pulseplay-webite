@@ -10,8 +10,9 @@ align-items: center;
 
 flex-direction: column;
 position: relative;
+margin-bottom: 3rem;
 @media (min-width: 1281px) {
-  margin-bottom: 4rem;
+
     .bg-img {
        top:2%;
         width: 50%;
@@ -54,7 +55,7 @@ h2 {
     } 
 
 .banner {
-    width: 80%;
+    width: 100%;
     height: 40rem;
    
     display: flex;
@@ -62,20 +63,27 @@ justify-content: center;
 align-items: flex-end;
 
 .banner-left {
-    height: 80%;
-    width: 50%;
 
+    height: 100%;
+    width: 55%;
+    background-color: red;
+  background-image: url("/rectangle.jpg");
+  background-color: #cccccc;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     position: relative;
     z-index: 100;
 
     .social {
         position: absolute;
-        right: -10%;
+        right: 5%;
         width: 20%;
         height: 100%;
     
         display: flex;
-        justify-content:flex-start;
+        justify-content:center;
         align-items: center;
         flex-direction: column;
          
@@ -92,10 +100,11 @@ align-items: flex-end;
 
 .banner-right {
     height: 80%;
-    width: 50%;
-
+    width: 40%;
+  
     position: relative; 
     display: flex;
+      margin-left: 8%;
     justify-content: center;
     
   
@@ -109,6 +118,10 @@ align-items: flex-end;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        .svg {
+            width: 100px;
+            height: 110px;
+        }
     }
     align-items: center;
     .head {
@@ -440,25 +453,40 @@ flex-direction:column-reverse;
 position: relative;
 
 .banner-left {
-    margin-top: 4rem;
+    background-image: url("/rectangle.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
     height: 40rem;
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 
     .social {
         position: absolute;
-        right: -10%;
+         left: 5%;
         width: 100%;
         height: 100%;
-        bottom: -40%;
-    
+        top: 0%;
+
         display: flex;
-        justify-content:space-between;
-        align-items: center;
-        flex-direction:row;
+        justify-content:center;
+        align-items: flex-start;
+        flex-direction:column;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10%;
+   
+        }
+
          
     li {
         cursor: pointer;
@@ -483,13 +511,17 @@ position: relative;
     .about {
         position: absolute;
           top: 0%;
-        width: 100%;
+        width: 90%;
         height: 20%;
         top: 5%;
      
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .svg {
+            width: 70px;
+            height: 71px;
+        }
       
     }
     align-items: center;
@@ -500,6 +532,8 @@ position: relative;
     align-items: center;
         h1 {
             color: #0060FF;
+            text-align: center;
+            font-size: 2.2rem;
         }
         h3 {
             font-size: 0.9rem;
@@ -513,7 +547,7 @@ margin-top: 1rem;
 
 
 .description {
-    margin-top: 5rem;
+    margin-top:  2rem !important;
     width: 100%;
    
    
@@ -622,15 +656,18 @@ flex-direction: column;
     .list {
 
         width: 90%;
-         height: 4rem;
+      
         display: flex;
     justify-content: center;
     display: flex;
     justify-content:space-between;
     align-items: center;
 
-
+    border-bottom:  1px solid #C9C3C3;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
     .data {
+      
   height: 100%;
         width: 100%;
         display: flex;
@@ -642,7 +679,7 @@ flex-direction: column;
         width: 50%;
         color: #ED297B; p {
             width: 90%;
-            line-height: 1.1rem;
+            line-height: 1.2rem;
             text-align: right;
         }
     }

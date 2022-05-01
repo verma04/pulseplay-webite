@@ -36,7 +36,7 @@ export const getStaticProps = async (context) => {
    const db =   await client.db("pulseplay-webiste")
 
 
-    const data = await   db.collection('teammembers').find().sort({memberDateOfJoinnng:1}).toArray()
+   const data = await   db.collection('teammembers').find().sort({memberDateOfJoinnng:1}).toArray()
 
 
 

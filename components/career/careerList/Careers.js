@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Carousel from './carousel'
 
 import { useQuery, gql } from "@apollo/client";
-import { useRouter } from 'next/router';
+import Router, { useRouter } from 'next/router';
 
 function Careers({data , team}) {
 
@@ -13,6 +13,7 @@ function Careers({data , team}) {
 
     
 
+    const router = useRouter()
 
 
 
@@ -38,7 +39,7 @@ function Careers({data , team}) {
                             <button onClick={() => window.open('mailto:careers@pulseplaydigital.com')  } className="btn-apply">Apply Now</button> <p>Or</p><button className="btn-apply green">Refer Now</button>
 
                         </div>
-                        <button onClick={() => window.open('mailto:careers@pulseplaydigital.com')  } className="all-jobs">View All Jobs</button>
+                        <button onClick={() => router.push('/careers')  } className="all-jobs">View All Jobs</button>
                     </div>
                     <div className="banner-block">
                         <div className="banner-image">

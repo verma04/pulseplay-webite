@@ -31,17 +31,7 @@ import { useQuery, gql } from "@apollo/client";
 
    <div className='bg-img' >
 
-   <div className="grey-bg">
-              <Image
-                alt="Picture of the author"
-                objectFit="contain"
-                layout="fill"
-                src={"https://pulseplay-website.s3.amazonaws.com/20220428-0ydoq-dd"}
-              />
 
-
-
-              </div>
        
      </div>
 
@@ -114,24 +104,28 @@ import { useQuery, gql } from "@apollo/client";
 
         <div className='dream' >
 
+{data?.dreams.length === 0 ?
+(
+  null
+) :
+(
 
-   
-          <div className='list' >
+  <div className='list' >
 
 
-            <div className='img-wrapper' >
-      
+  <div className='img-wrapper' >
 
-            </div>
+
+  </div>
 
 
 <div className='data' >
 
 <div className='list-left' >
 
-            
+  
 Dreams
- 
+
 </div>
 
 
@@ -141,28 +135,38 @@ Dreams
 
 {data?.dreams.map(t =>
 <p key={t} >{t} </p>
- 
+
 )
 
 }
 
+
+</div>
+</div>
+
+
+
+
  
 </div>
-</div>
+)
 
-
+}
    
-
-           
-          </div>
-  
-          <div className='list' >
+{data?.interest.length === 0 ? 
+(
+ null
+):
+(
+<div className='list' >
 
 
 <div className='img-wrapper' >
 
 
 </div>
+
+
 
 
 
@@ -180,6 +184,7 @@ Interest
 
 
 
+{console.log(data?.interest)}
 {data?.interest.map(t =>
 <p key={t} >{t} </p>
  
@@ -199,9 +204,14 @@ Interest
 
 
 </div>
+)
+ }
 
-
-
+{data?.certificate.length === 0 ? 
+(
+ null
+):
+(
 <div className='list' >
 
 
@@ -222,7 +232,6 @@ Certification
 
 
 <div className='list-right' >
-  
   {data?.certificate.map(t =>
 <p key={t} >{t} </p>
  
@@ -243,9 +252,12 @@ Certification
 
 </div>
 
+)
+ }
 
-
-
+{data?.education === '' ?  (
+  null
+) : (
        <div className='list' >
 
 
@@ -263,7 +275,6 @@ Education
  
 </div>
 
-
 <div className='list-right' >
   <p>{data?.education}</p>
 
@@ -276,6 +287,8 @@ Education
 
            
           </div>
+)
+ }
 
 
 

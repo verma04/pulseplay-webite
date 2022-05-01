@@ -85,11 +85,7 @@ export default function Social({data}) {
 </li>
 }
 
-<li>
 
-
-
-</li>
 
 
 

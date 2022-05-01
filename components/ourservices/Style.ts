@@ -160,7 +160,7 @@ position: relative;
 }
 
 @media (max-width: 1281px) { 
-
+margin-bottom: 3rem;
   .video-bg {
     position: relative;
     video {
