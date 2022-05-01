@@ -124,7 +124,7 @@ className='para' >
 
 </div>
 
-<video  width={"90%"} height="200" src={data?.projectVideo} autoPlay loop muted />
+<video  className='set' src={data?.projectVideo} autoPlay loop muted />
      
 <div className='space' ></div>
 
@@ -140,7 +140,7 @@ className='para' >
       
     <h2> {data?.testimonialName} </h2>
  <p id="des" >{data?.testimoniaDesignation}</p> 
- <p  >{data?.projectName}</p> 
+ <p id="bt"  >{data?.projectName}</p> 
 
 <div   dangerouslySetInnerHTML={{__html: data?.testimonialDescription}} className='para' ></div>
    </div>

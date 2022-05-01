@@ -197,10 +197,9 @@ margin-top: 3rem;
 
 }
 
-.space {
-width: 100%;
-height: 7rem;
-background-color: white;
+.set {
+    width: 80%;
+    height: 100%;
 }
 .testimonial {
     .head {
@@ -480,22 +479,15 @@ margin-top: 3rem;
 
 }
 
-.space {
-width: 100%;
-height: 7rem;
-background-color: white;
+.set {
+    width: 90%;
+    height: 100%;
 }
 .testimonial {
     .head {
         height: 10%;
         width: 90%;
-    h2 {
-        font-size: 2rem;
-        text-transform: uppercase;
-         top: 0%;
-         left: 10%;
-     
-    }
+
 }
 
     padding-top: 3rem;
@@ -517,14 +509,18 @@ background-color: white;
     .testiminal-left {
         width: 100%;
         h2 {
-            margin-top: 3rem;
+         
         font-size: 1.5rem;
         
         }
          #des {
              width: 60%;
              line-height: 1.3rem;
-             margin-bottom: 3rem;
+          
+         }
+         #bt {
+             margin-bottom: 2rem;
+
          }
         .para {
           width: 100%;

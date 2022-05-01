@@ -197,7 +197,7 @@ margin-top: 5rem;
 
     .list {
         margin-bottom: 2rem;
-   padding-bottom: 2rem;
+       padding-bottom: 1rem;
         width: 90%;
         border-bottom: 1px solid;
         display: flex;
