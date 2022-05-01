@@ -33,6 +33,6 @@
       ],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/solutions/solutiondetail/Style.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/solutions/solutiondetail/Style.jsx", "pages/api/team.js", "pages/_document.jsx"],
   "exclude": ["node_modules"]
 }
