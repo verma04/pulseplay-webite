@@ -154,7 +154,7 @@ export const Section = styled.section`
 
   .para {
   width: 100%;
- 
+ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,7 +359,7 @@ display: none;
 
   .para {
   width: 100%;
- 
+ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
