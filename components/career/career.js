@@ -1,4 +1,4 @@
-import Navbar from '@components/coman/Navbar'
+import Navbar from '../coman/Navbar'
 import React from 'react'
 
 import {Section} from './style'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '@components/coman/Navbar'   
+import Navbar from '../../components/coman/Navbar'   
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import ServiceDetail from '../../components/serviceDetail/ServiceDetail'

@@ -1,7 +1,7 @@
 
 
 import Navbar from '../../components/coman/Navbar';
-import Team from '@components/teamView/teamView/team';
+import Team from '../../components/teamView/teamView/team';
 const prod = process.env.NODE_ENV === 'production'
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { NextSeo } from 'next-seo';

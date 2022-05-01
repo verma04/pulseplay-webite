@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section } from './style'
 import Image from 'next/image'
-import Banner from '@components/coman/banner/banner'
+import Banner from '../../coman/banner/Banner'
 function Solutionsdetail({data}) {
 
   return (

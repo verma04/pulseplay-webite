@@ -1,5 +1,5 @@
-import Navbar from '@components/coman/Navbar'
-import  Solutions from '@components/solutions/solution'
+import Navbar from '../../components/coman/Navbar'
+import  Solutions from '../../components/solutions/solution'
 import client from "../../apollo/apollo-client";
 import clientPromise from '../../utils/mongodb'
 import React from 'react'

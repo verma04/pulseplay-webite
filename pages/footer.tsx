@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '@components/coman/Footer'  
+import Footer from '../components/coman/Footer'  
 function footer() {
   return (
     

@@ -1,6 +1,6 @@
 
 import Navbar from '../../components/coman/Navbar';
-import Team from '@components/teamView/allTeam/Team';
+import Team from '../../components/teamView/allTeam/Team';
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 const prod = process.env.NODE_ENV === 'production'
 import client from "../../apollo/apollo-client";

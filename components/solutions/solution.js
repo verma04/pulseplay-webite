@@ -1,4 +1,4 @@
-import Navbar from '@components/coman/Navbar'
+import Navbar from '../../components/coman/Navbar'
 import React from 'react'
 import AllServices from './allSolutions'
 import HeroSection from './HeroSection'
