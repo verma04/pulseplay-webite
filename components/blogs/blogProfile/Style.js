@@ -25,6 +25,9 @@ margin-bottom: 5rem;
     h1 {
         font-size: 3rem;
     }
+    img {
+        width: 100%;
+    }
      p {
          margin-bottom: 0.5rem;
          margin-top: 0.5rem;
@@ -115,12 +118,17 @@ margin-bottom: 5rem;
          width: 100%;
          display: flex;
          justify-content: center;
+         align-items: flex-start;
          flex-direction: column;
          h2 {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     line-height: 2rem;
+    text-align: left;
+}
+img {
+    width: 100%;
 }
      }
     }

@@ -4,7 +4,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-   height: 7rem;
+   height: 6rem;
   background-color: transparent;
   a {
     color: black;

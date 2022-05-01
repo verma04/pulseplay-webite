@@ -77,7 +77,7 @@ return (
 
 { Object.keys(t).length === 0 ?
 (
-  console.log("sds")
+ null
 )
 :
 (
