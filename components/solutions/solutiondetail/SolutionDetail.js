@@ -85,7 +85,7 @@ function Solutionsdetail({data}) {
 
   
     
-    </Section >
+  </Section >
 
     
     </>
