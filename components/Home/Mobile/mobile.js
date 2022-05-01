@@ -715,7 +715,7 @@ variants={icon}
 initial="hidden"
 animate="visible"x
 onClick={()  =>  setFirst(true)}
-style={{position:"absolute" , bottom:"5%" , width:"100%" ,  display:"flex" , justifyContent:"center", flexDirection:"column", alignItems:"center"}} className='bottom' >
+style={{position:"absolute" , bottom:"10%" , width:"100%" ,  display:"flex" , justifyContent:"center", flexDirection:"column", alignItems:"center"}} className='bottom' >
 
   <h1 style={{fontSize:"1.1rem", marginBottom:"1rem", color:"white" , fontFamily: 'ManropeLight'}} >Click Here</h1> 
 <svg width="20" height="20" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">

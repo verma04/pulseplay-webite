@@ -12,6 +12,7 @@ export const Section = styled.section`
     width:100%;
     overflow: hidden;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 
 

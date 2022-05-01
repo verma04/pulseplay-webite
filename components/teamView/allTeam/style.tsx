@@ -82,7 +82,7 @@ height: 100%;
     margin-bottom: 3rem;
     display: flex;
 justify-content: center;
-align-items:flex-start;
+align-items:center;
 
 flex-direction: column;
 
@@ -92,7 +92,7 @@ flex-direction: column;
         text-transform: uppercase;
     }
     p {
-        width: 95%;
+        width: 90%;
         font-size: 2rem;
         line-height: 3rem;
     }
