@@ -39,7 +39,7 @@ function Contactus() {
             <input placeholder="Organization*"></input>
 
             <select name="cars" id="cars">
-             <option>Services</option>
+             <option>Solutions</option>
               {services.map(t =>
               <option  key={t.id} value="volvo">{t.servicesName}</option>
               )

@@ -27,22 +27,22 @@ function Footer() {
                             <li>Client</li>
                             <div className="col-about">
                                 <h3>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     About
                                     </Link>
                                     </h3>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Brand
                                     </Link>
                                     </li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Values
                                     
                                     </Link></li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Functions
                                     </Link></li>
                                 <li>
@@ -51,22 +51,22 @@ function Footer() {
                                     </Link>
                                     </li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Digital Capabilities
                                     </Link>
                                     </li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Approach
                                     </Link>
                                     </li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Journey
                                     </Link>
                                     </li>
                                 <li>
-                                <Link href={{ pathname: '/about' }}>
+                                <Link href={{ pathname: '/about-us' }}>
                                     Ecosystem
                                     </Link>
                                     </li>
@@ -101,33 +101,33 @@ function Footer() {
                         </div>
                         <div className="col-footer">
                             <h3>
-                            <Link href={{ pathname: '/career' }}>
+                            <Link href={{ pathname: '/careers' }}>
                                 Careers
                                 </Link>
                                 </h3>
                             <li>
-                            <Link href={{ pathname: '/career' }}>
+                            <Link href={{ pathname: '/careers' }}>
                                 Live & work in the  lap of Himalayas
                                 </Link>
                                 </li>
                             <li>
-                            <Link href={{ pathname: '/career' }}>
+                            <Link href={{ pathname: '/careers' }}>
                                 Why join our growing team
                                 </Link>
                                 </li>
                             <li>
-                            <Link href={{ pathname: '/career' }}>
+                            <Link href={{ pathname: '/careers' }}>
                                 Apply
                                 </Link>
                                 </li>
                             <li>
-                            <Link href={{ pathname: '/career' }}>
+                            <Link href={{ pathname: '/careers' }}>
                                 Refer
                                 </Link>
                                 </li>
                             <div className="col-media">
                                 <h3>
-                                <Link href={{ pathname: '/media' }}>
+                                <Link href={{ pathname: '/blog' }}>
                                     Media
                                     </Link>
                                     </h3>
@@ -136,7 +136,7 @@ function Footer() {
                                     Blog
                                     </Link></li>
                                 <li>
-                                <Link href={{ pathname: '/nlog' }}>
+                                <Link href={{ pathname: '/blog' }}>
                                     Awards
                                     </Link>
                                     </li>

@@ -207,7 +207,7 @@ function Navbar() {
                   }
                   initial="hidden"
                   animate="visible"
-                  href="aboutus"
+                  href="/about-us"
                 >
                   About
                   <div className="index">2</div>
@@ -250,7 +250,7 @@ function Navbar() {
                     !isOpen ? naviagtionCloseText5 : naviagtionOpenText5
                   }
                   initial="hidden"
-                  href="/career"
+                  href="/careers"
                   animate="visible"
              
                 >
@@ -503,6 +503,7 @@ initial="hidden"
                   }
                   initial="hidden"
                   animate="visible"
+                  href="/about-us"
                   onClick={() => router.push(`/aboutus`)}
                 >
                   About
@@ -545,7 +546,8 @@ initial="hidden"
                   }
                   initial="hidden"
                   animate="visible"
-                  onClick={() => router.push(`/career`)}
+                  href="/careers"
+                  onClick={() => router.push(`/careers`)}
                 >
                   Careers
                   <div className="index">5</div>
