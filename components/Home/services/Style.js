@@ -38,7 +38,7 @@ height: 100vh;
     justify-content: center;
     position: relative;
       .data {
-      
+     
         z-index: 20;
         width: 90%;
         height: 100%;
@@ -51,12 +51,13 @@ height: 100vh;
       position: relative;
       font-family: SaolDisplay-Regular;
       padding-left: 1rem;
+      margin-left: 1rem;
       
       li {
         list-style: none;
         position: absolute;
         font-size: 1.5rem;
-        left: -4%;
+       left: -1rem;
         li {
           font-size: 1rem;
           list-style: none;
@@ -114,6 +115,7 @@ min-width: 100vw;
     scroll-snap-align: center;
     .block {
       height: 25vh;
+      
       width: 100%;
        border:  1px solid;
       display: flex;
@@ -122,6 +124,7 @@ min-width: 100vw;
 
 
       .data {
+     
         margin-top: 3rem;
         width: 80%;
         height: 100%;
@@ -140,8 +143,10 @@ min-width: 100vw;
         list-style: none;
         position: absolute;
         font-size: 1.2rem;
-        left: -10%;
+        left: -1rem;
+  
         li {
+          margin-left: -2rem;
           font-size: 1rem;
           list-style: none;
         }
