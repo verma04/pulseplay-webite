@@ -76,7 +76,7 @@ export default function Career({data}) {
   <div  className='career-list'  >
   {data?.filter(car =>car.carrerCategory === t).map(list =>
   
- <li onClick={()=> router.push(`/career/${list.slug}`)} key={list.id} > {list.carrer} </li>   
+ <li onClick={()=> router.push(`/careers/${list.slug}`)} key={list.id} > {list.carrer} </li>   
   )
   
   }
